@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,6 +16,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/merienda": "^5.0.8",
+    "@fontsource/pt-serif": "^5.0.10",
     "autoprefixer": "^10.4.15",
     "gatsby": "^5.11.0",
     "gatsby-plugin-postcss": "^6.11.0",
@@ -25,6 +27,7 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
+    "@types/feather-icons": "^4.29.1",
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",

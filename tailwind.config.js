@@ -5,7 +5,17 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        PT: ["'PT Serif'", "serif"],
+      },
+      listStyleType: {
+        circle: "circle",
+      },
+      screens: {
+        md_lg: "980px",
+      },
+    },
   },
   plugins: [],
-}
+};
