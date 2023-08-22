@@ -1,4 +1,7 @@
 import * as React from "react";
+import GithubIcon from "../../assets/github.svg";
+import TwitterIcon from "../../assets/twitter.svg";
+import GlobeIcon from "../../assets/globe.svg";
 import type { HeadFC, PageProps } from "gatsby";
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -27,21 +30,21 @@ const IndexPage: React.FC<PageProps> = () => {
                 target="_blank"
                 href="https://github.com/YenTingWu"
               >
-                <i className="icons" data-feather="github"></i>
+                <GithubIcon className="icons" />
               </a>
               <a
                 className="icons-links"
                 target="_blank"
                 href="https://twitter.com/YenTing09677393"
               >
-                <i className="icons" data-feather="twitter"></i>
+                <TwitterIcon class className="icons" />
               </a>
               <a
                 className="icons-links"
                 target="_blank"
                 href="https://yenting.me"
               >
-                <i className="icons" data-feather="globe"></i>
+                <GlobeIcon className="icons" />
               </a>
             </span>
           </div>
