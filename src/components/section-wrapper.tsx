@@ -10,6 +10,7 @@ export const SectionWrapper = ({ title, children }: SectionWrapperProps) => {
     <div
       className="
         lg:[&:not(:first-child)]:mt-[1rem] 
+        first:mt-3
         lg:[&_p]:leading-6 
         lg:[&_p]:tracking-[1.15px]
         leading-[20px]

@@ -21,30 +21,32 @@ export const Project = ({
         rounded 
         card-grid-item
         [&:not(:first-child)]:mt-1
-        lg:[&:not(:first-child)]:mt-4
+        lg:[&:not(:first-child)]:mt-3
       "
     >
-      <h5 className="mb-1 font-bold">
-        {title}
+      <h5 className="mb-1 text-lg font-bold">
+        {link == null ? (
+          title
+        ) : (
+          <a
+            target="_blank"
+            href={link}
+            className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
+          >
+            {title}
+          </a>
+        )}
         {isArchived && (
-          <span className="ml-3 font-medium text-gray-400">archived</span>
+          <span className="ml-3 text-sm text-gray-400">archived</span>
         )}
       </h5>
       <span className="text-md">{description}</span>
-      <div className="[&_p]:!leading-[20px]">
-        <p className="display:inline text-xs text-gray-500 lg:mt-1">
-          -{" "}
-          <a target="_blank" className="underline" href={link}>
-            {link}
-          </a>
-        </p>
-        <p className="display:inline text-xs text-gray-500">
-          -{" "}
-          {stacks.map((s, index) =>
-            index === stacks.length - 1 ? `${s}` : `${s}, `
-          )}
-        </p>
-      </div>
+      <p className="display:inline mt-1 text-gray-500">
+        -{" "}
+        {stacks.map((s, index) =>
+          index === stacks.length - 1 ? `${s}` : `${s}, `
+        )}
+      </p>
     </div>
   );
 };

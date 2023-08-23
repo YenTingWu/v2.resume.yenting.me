@@ -4,7 +4,12 @@ import { SectionWrapper } from "@components/section-wrapper";
 export const Hi = () => {
   return (
     <SectionWrapper title="HI">
-      <div className="lg:[&_p:not(:first-child)]:mt-[0.7rem]">
+      <div
+        className="
+          lg:[&_p:not(:first-child)]:mt-[0.7rem]
+          [&_p:not(:first-child)]:mt-[0.4rem]
+        "
+      >
         <p>
           My name is YenTing Wu, a self-motivated software engineer and a
           creator. My passion for being a software engineer lies in coming up

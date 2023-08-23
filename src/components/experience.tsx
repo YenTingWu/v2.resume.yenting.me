@@ -20,18 +20,28 @@ export const Experience = ({
   details,
 }: ExperienceProps) => {
   return (
-    <div className="card-content tracking-wider lg:leading-6 leading-2 [&:not(:first-child)]:mt-4">
-      <div className="experience-card">
+    <div
+      className="
+        tracking-wider 
+        lg:leading-6 
+        leading-2 
+        lg:[&:not(:first-child)]:mt-4
+        [&:not(:first-child)]:mt-2
+      "
+    >
+      <div>
         <h5>
           {link == null ? (
             <p className="display: inline !tracking-[0.7px]">
               <span className="font-bold text-lg">{team}</span>
             </p>
           ) : (
-            <a target="_blank" href={link}>
-              <span className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600">
-                {team}
-              </span>
+            <a
+              target="_blank"
+              className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
+              href={link}
+            >
+              {team}
             </a>
           )}
 
