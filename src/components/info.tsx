@@ -17,15 +17,15 @@ export const Info = () => {
         <a className="text-xs" target="_blank" href={`mailto:${info.email}`}>
           {info.email}
         </a>
-        <span className="flex lg:mt-2 mt-1">
-          <a className="icons-links" target="_blank" href={info.github}>
-            <GithubIcon className="icons" />
+        <span className="flex lg:mt-2 mt-1 [&_a:not(:first-child)]:ml-[0.7rem]">
+          <a target="_blank" href={info.github}>
+            <GithubIcon className="w-[16px] h-[16px] " />
           </a>
-          <a className="icons-links" target="_blank" href={info.twitter}>
-            <TwitterIcon className="icons" />
+          <a target="_blank" href={info.twitter}>
+            <TwitterIcon className="w-[16px] h-[16px]" />
           </a>
-          <a className="icons-links" target="_blank" href={info.blog}>
-            <GlobeIcon className="icons" />
+          <a target="_blank" href={info.blog}>
+            <GlobeIcon className="w-[16px] h-[16px] " />
           </a>
         </span>
       </div>

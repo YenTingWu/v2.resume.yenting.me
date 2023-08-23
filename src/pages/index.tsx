@@ -20,10 +20,8 @@ const IndexPage: React.FC<PageProps> = () => {
           <div>
             <Hi />
             <Projects />
-            <div className="experience-wrap flex lg:flex-col">
-              <WorkExperiences />
-              <OpenSourceExperiences />
-            </div>
+            <WorkExperiences />
+            <OpenSourceExperiences />
             <Stacks />
           </div>
         </section>
