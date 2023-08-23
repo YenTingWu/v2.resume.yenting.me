@@ -1,6 +1,9 @@
 import * as React from "react";
+import { Experience } from "@components/experience";
+import data from "../data.json";
 
 export const OpenSourceExperiences = () => {
+  const { openSources } = data;
   return (
     <div className="card-container">
       <div className="p-2">
@@ -9,44 +12,9 @@ export const OpenSourceExperiences = () => {
             Open Source Experience
           </span>
         </h4>
-        <div className="card-content tracking-wider lg:leading-6 leading-2">
-          <div className="experience-card">
-            <h5>
-              <a target="_blank" href="https://chakra-ui.com/">
-                <span className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600">
-                  Chakra UI
-                </span>
-              </a>
-              <span className="ml-3 font-medium text-base text-gray-500">
-                Collaborator
-              </span>
-            </h5>
-            <span className="block mt-1 font-medium text-sm text-gray-500">
-              Sep 2021 - Present
-            </span>
-
-            <span className="block mt-3 mb-1">In Docs & DevRel team</span>
-            <ul className="list-disc list-outside pl-6">
-              <li>
-                Developed the site's with new features and maintain the
-                performance
-                <ul className="list-circle list-outside pl-6">
-                  <li>
-                    Recent PR -
-                    <a
-                      className="transition-all cursor-pointer hover:text-blue-600 underline"
-                      target="_blank"
-                      href="https://github.com/chakra-ui/chakra-ui-docs/pull/62"
-                    >
-                      Create Showcase Page
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>Improve docs to make use cases more clearly</li>
-            </ul>
-          </div>
-        </div>
+        {openSources.map((o) => (
+          <Experience key={`${o.team}_${o.title}`} {...o} />
+        ))}
       </div>
     </div>
   );

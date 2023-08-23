@@ -6,7 +6,7 @@ interface ExperienceProps {
   team: string;
   link: string | null;
   title: string;
-  timeRange: [string | null, string | null];
+  timeRange: (string | null)[];
   overview: string;
   details: string[];
 }
@@ -20,7 +20,7 @@ export const Experience = ({
   details,
 }: ExperienceProps) => {
   return (
-    <div className="card-content tracking-wider lg:leading-6 leading-2 [&:not(:first-child)]:mt-3">
+    <div className="card-content tracking-wider lg:leading-6 leading-2 [&:not(:first-child)]:mt-4">
       <div className="experience-card">
         <h5>
           {link == null ? (
@@ -43,7 +43,7 @@ export const Experience = ({
           {formatTime(timeRange[0])} - {formatTime(timeRange[1])}
         </span>
 
-        <span className="block mt-3 mb-1">{parseText(overview)}</span>
+        <span className="block mt-2 mb-1">{parseText(overview)}</span>
         <ul className="list-disc list-outside pl-6">
           {details.map((detail) => (
             <li key={detail}>{parseText(detail)}</li>

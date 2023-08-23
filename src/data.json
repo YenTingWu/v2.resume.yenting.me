@@ -26,7 +26,7 @@
       "details": [
         "Built a web streaming app and a chat app with **Twilio API**",
         "Implemented unit tests with **React Testing Library**",
-        "Developed an admin system to control teacher-student relationship"
+        "Developed an admin system from scratch to control teacher-student relationship"
       ]
     },
     {
@@ -38,6 +38,19 @@
       "details": [
         "Built a customer-side web app with GatsbyJS and Ant Design",
         "Built a store-side mobile app with Expo and React Native Paper"
+      ]
+    }
+  ],
+  "openSources": [
+    {
+      "team": "Chakra UI",
+      "title": "Collaborator",
+      "link": "https://chakra-ui.com/",
+      "timeRange": ["2021-08", "2022-02"],
+      "overview": "In docs team",
+      "details": [
+        "Built docs and developed the landing page",
+        "Collaborate with designers and engineers to design new components"
       ]
     }
   ]
