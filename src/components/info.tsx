@@ -9,9 +9,9 @@ export const Info = () => {
 
   return (
     <section id="info">
-      <div className="pl-2 lg:pl-0">
+      <div className="pl-2 lg:pl-0 lg:p-2">
         <h3 className="antialiased text-2xl font-medium">{info.name}</h3>
-        <p className="mt-2 lg:mb-4 mb-1 text-gray-400 text-sm">
+        <p className="mt-1 lg:mb-2 mb-1 text-gray-400 text-sm">
           Software Engineer
         </p>
         <a className="text-xs" target="_blank" href={`mailto:${info.email}`}>

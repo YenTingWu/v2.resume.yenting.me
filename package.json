@@ -16,7 +16,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@fontsource/merienda": "^5.0.8",
     "@fontsource/pt-serif": "^5.0.10",
     "autoprefixer": "^10.4.15",
     "gatsby": "^5.11.0",
