@@ -7,19 +7,44 @@ export const Stacks = () => {
 
   return (
     <SectionWrapper title="Stacks">
-      <div className="card-content tracking-wider lg:leading-6 leading-2">
-        <div className="grid grid-cols-6 lg:max-w-full max-w-sm gap-x-5 gap-y-2">
+      <div className="tracking-wider lg:leading-6 leading-2">
+        <div>
           {Object.entries(stacks).map(([key, value]) => (
-            <React.Fragment key={key}>
-              <span className="font-bold lg:col-span-1 col-span-2 text-right">
+            <div
+              className="
+                flex 
+                w-full 
+                lg:[&:not(:first-child)]:mt-2
+                sm:[&:not(:first-child)]:mt-1
+              "
+              key={key}
+            >
+              <span
+                className="
+                  min-w-[66px]
+                  sm:flex-1
+                  font-bold
+                  text-right
+                  whitespace-nowrap	
+                "
+              >
                 {key}
               </span>
-              <span className="lg:col-span-5 col-span-4">
+              <span
+                className="
+                  lg:flex-[5]
+                  lg:ml-5
+                  sm:flex-[9]
+                  sm:ml-3
+                  ml-2
+                  flex-[5]
+                "
+              >
                 {value.map((v, i) =>
                   i === value.length - 1 ? `${v}` : `${v}, `
                 )}
               </span>
-            </React.Fragment>
+            </div>
           ))}
         </div>
       </div>

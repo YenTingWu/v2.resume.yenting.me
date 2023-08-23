@@ -19,9 +19,9 @@ const IndexPage: React.FC<PageProps> = () => {
         <section className="col-span-2 font-PT lg:text-sm text-xs">
           <div>
             <Hi />
-            <Projects />
             <WorkExperiences />
             <OpenSourceExperiences />
+            <Projects />
             <Stacks />
           </div>
         </section>

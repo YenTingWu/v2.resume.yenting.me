@@ -11,7 +11,7 @@
       "title": "Chak-Timmy",
       "link": "https://github.com/YenTingWu/chak-timmy",
       "description": "A react component library that built on top of chakra-ui, which mainly serves as date picker and calendar components.",
-      "stacks": ["turborepo", "storybook"],
+      "stacks": ["ReactJS", "Turborepo", "Storybook"],
       "isArchived": false
     },
     {
@@ -49,6 +49,7 @@
       "details": [
         "Built a web streaming app and a chat app with **Twilio API**",
         "Implemented unit tests with **React Testing Library**",
+        "Built a component library with **Storybook**",
         "Developed an admin system from scratch to control teacher-student relationship"
       ]
     },
