@@ -6,6 +6,29 @@
     "blog": "https://yenting.me",
     "name": "Yen Ting Wu"
   },
+  "projects": [
+    {
+      "title": "Chak-Timmy",
+      "link": "https://github.com/YenTingWu/chak-timmy",
+      "description": "A react component library that built on top of chakra-ui, which mainly serves as date picker and calendar components.",
+      "stacks": ["turborepo", "storybook"],
+      "isArchived": false
+    },
+    {
+      "title": "420",
+      "link": "https://420.yenting.me/",
+      "description": "A gallery for me to play with design skills and libraries. Mainly built with THREE.JS and p5.",
+      "stacks": ["NextJS", "Chakra UI", "Three.JS"],
+      "isArchived": false
+    },
+    {
+      "title": "Procrastination",
+      "link": "https://github.com/YenTingWu/procrastination",
+      "description": "A gallery for me to play with design skills and libraries. Mainly built with THREE.JS and p5.",
+      "stacks": ["NextJS", "Zustand", "Docker", "Jest"],
+      "isArchived": true
+    }
+  ],
   "works": [
     {
       "team": "Source Network Inc.",

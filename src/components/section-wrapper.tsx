@@ -9,8 +9,7 @@ export const SectionWrapper = ({ title, children }: SectionWrapperProps) => {
   return (
     <div
       className="
-        card-container 
-        lg:[&:not(:first-child)]:mt-[1.5rem] 
+        lg:[&:not(:first-child)]:mt-[1rem] 
         lg:[&_p]:leading-6 
         lg:[&_p]:tracking-[1.15px]
         leading-[20px]
