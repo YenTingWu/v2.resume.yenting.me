@@ -53,5 +53,12 @@
         "Collaborate with designers and engineers to design new components"
       ]
     }
-  ]
+  ],
+  "stacks": {
+    "Front End": ["ReactJS"],
+    "Back End": ["NodeJS", "MongoDB", "Docker"],
+    "Mobile": ["React Native"],
+    "Cloud": ["Droplets", "GCP"],
+    "Language": ["Typescript"]
+  }
 }
