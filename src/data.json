@@ -12,18 +12,20 @@
       "title": "Full Stack Engineer",
       "link": "https://insgreat.com/",
       "timeRange": ["2022-07", "2023-02"],
-      "overview": "Built Edtech app with NextJS, NestJS, GCP and MongoDB",
-      "details": ["Led 3-person team to design and implement fullstack system"]
+      "overview": "Built Edtech app with **NextJS**, **NestJS**, **GCP** and **MongoDB**",
+      "details": [
+        "Led **3-person team** to design and implement fullstack system"
+      ]
     },
     {
       "team": "Source Network Inc.",
       "title": "Frontend Engineer",
       "link": "https://insgreat.com/",
       "timeRange": ["2022-02", "2022-07"],
-      "overview": "Built Edtech app with NextJS, React-Query and ChakraUI",
+      "overview": "Built Edtech app with **NextJS**, **React Query** and **ChakraUI**",
       "details": [
-        "Built a web streaming app and a chat app with Twilio API",
-        "Implemented unit tests with React-Testing-Library",
+        "Built a web streaming app and a chat app with **Twilio API**",
+        "Implemented unit tests with **React Testing Library**",
         "Developed an admin system to control teacher-student relationship"
       ]
     },
@@ -32,7 +34,7 @@
       "title": "UI Engineer",
       "link": "https://www.weserve.tw/",
       "timeRange": ["2020-08", "2021-02"],
-      "overview": "Built a food delivery platform with Expo and GatsbyJS",
+      "overview": "Built a food delivery platform with **Expo** and **GatsbyJS**",
       "details": [
         "Built a customer-side web app with GatsbyJS and Ant Design",
         "Built a store-side mobile app with Expo and React Native Paper"

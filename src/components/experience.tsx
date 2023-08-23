@@ -1,4 +1,6 @@
 import * as React from "react";
+import { formatTime } from "@utils/format-time";
+import { parseText } from "@utils/parse-text";
 
 interface ExperienceProps {
   team: string;
@@ -7,14 +9,6 @@ interface ExperienceProps {
   timeRange: [string | null, string | null];
   overview: string;
   details: string[];
-}
-
-function formatTime(time: string | null) {
-  if (time == null) return "Present";
-  return new Date(time).toLocaleDateString("en-US", {
-    month: "short",
-    year: "numeric",
-  });
 }
 
 export const Experience = ({
@@ -49,10 +43,10 @@ export const Experience = ({
           {formatTime(timeRange[0])} - {formatTime(timeRange[1])}
         </span>
 
-        <span className="block mt-3 mb-1">{overview}</span>
+        <span className="block mt-3 mb-1">{parseText(overview)}</span>
         <ul className="list-disc list-outside pl-6">
           {details.map((detail) => (
-            <li key={detail}>{detail}</li>
+            <li key={detail}>{parseText(detail)}</li>
           ))}
         </ul>
       </div>
