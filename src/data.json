@@ -35,8 +35,10 @@
       "title": "Full Stack Engineer",
       "link": "https://insgreat.com/",
       "timeRange": ["2022-07", "2023-02"],
-      "overview": "Built Edtech app with **NextJS**, **NestJS**, **GCP** and **MongoDB**",
+      "overview": "Built Edtech app with **NextJS**, **NestJS**, **Docker**, **GCP** and **MongoDB**",
       "details": [
+        "Built **post systems** to empower teachers to well promote themselves",
+        "Developed **payment services** with **Stripe API**",
         "Led **3-person team** to design and implement fullstack system"
       ]
     },
@@ -47,10 +49,10 @@
       "timeRange": ["2022-02", "2022-07"],
       "overview": "Built Edtech app with **NextJS**, **React Query** and **ChakraUI**",
       "details": [
-        "Built a web streaming app and a chat app with **Twilio API**",
+        "Built web streaming and chat system with **Twilio API**",
         "Implemented unit tests with **React Testing Library**",
-        "Built a component library with **Storybook**",
-        "Developed an admin system from scratch to control teacher-student relationship"
+        "Collaborate with UI designer to build a component library with **Storybook**",
+        "Introduced an admin system to control teacher-student relationship"
       ]
     },
     {

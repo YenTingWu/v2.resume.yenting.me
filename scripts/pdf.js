@@ -30,10 +30,10 @@ const FILE = "/";
     // To cut the blank page, if the content is over one page, should remove this property
     pageRanges: "1-2",
     margin: {
-      top: "0.15in",
-      bottom: "0.15in",
-      left: "0.15in",
-      right: "0.15in",
+      top: "0.05in",
+      bottom: "0.05in",
+      left: "0.05in",
+      right: "0.05in",
     },
   });
 

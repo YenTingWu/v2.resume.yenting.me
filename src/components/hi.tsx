@@ -11,21 +11,23 @@ export const Hi = () => {
         "
       >
         <p>
-          My name is YenTing Wu, a self-motivated software engineer and a
-          creator. My passion for being a software engineer lies in coming up
-          with brilliant ideas with my colleges and enabling them. I take good
-          care about experience, design and communication.
+          I'm YenTing Wu, an engineer driven by self-motivation, curiosity, and
+          strong communication skills. My enthusiasm for being a software
+          engineer stems from my ability to generate ingenious concepts and
+          bring them to life. I prioritize aspects like user experience, design,
+          and effective communication.
         </p>
         <p>
-          I am also an open-source collaborator, mainly contribute to React
-          community. I currently work with Chakra UI team to build the doc site
-          and maintain DevRel. I love to collaborate with people coming from
-          different backgrounds but having the same goal - Building a better
-          community.
+          I adopt a top-down approach to my thinking process. When I tackle new
+          subjects, I first grasp the overarching "why," then delve into the
+          specifics by asking questions. The answers to these inquiries form a
+          comprehensive map, allowing me to interconnect each element of the
+          system seamlessly.
         </p>
         <p>
-          Outside of programming, I love river trekking, biking in summer and
-          exploring wild hot spring in winter. Nature always inspires me.
+          Outside of programming, I find joy in activities like traveling, river
+          trekking and rafting. The wonders of nature consistently spark my
+          creativity.
         </p>
       </div>
     </SectionWrapper>
