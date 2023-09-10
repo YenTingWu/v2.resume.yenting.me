@@ -7,6 +7,7 @@ interface ExperienceProps {
   link: string | null;
   title: string;
   timeRange: (string | null)[];
+  location: string;
   overview: string;
   details: string[];
 }
@@ -15,6 +16,7 @@ export const Experience = ({
   team,
   link,
   timeRange,
+  location,
   title,
   overview,
   details,
@@ -45,15 +47,20 @@ export const Experience = ({
             </a>
           )}
 
-          <span className="ml-3 font-medium text-base text-gray-500">
+          <span className="ml-3 font-medium text-base text-gray-600">
             {title}
           </span>
         </h5>
-        <span className="block mt-1 font-medium text-sm text-gray-500">
-          {formatTime(timeRange[0])} - {formatTime(timeRange[1])}
-        </span>
+        <div className="flex justify-between items-center">
+          <span className="block mt-1 font-medium text-sm text-gray-500">
+            {formatTime(timeRange[0])} - {formatTime(timeRange[1])}
+          </span>
+          <span className="block font-medium text-sm text-gray-500">
+            {location}
+          </span>
+        </div>
 
-        <span className="block mt-2 mb-1">{parseText(overview)}</span>
+        <span className="block mt-1 mb-1">{parseText(overview)}</span>
         <ul className="list-disc list-outside pl-6">
           {details.map((detail) => (
             <li key={detail}>{parseText(detail)}</li>

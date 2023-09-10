@@ -9,17 +9,20 @@ export const WorkExperiences = () => {
   return (
     <SectionWrapper title="Work Experience">
       <div>
-        {works.map(({ team, link, title, timeRange, overview, details }) => (
-          <Experience
-            key={`${team}_${title}`}
-            team={team}
-            link={link}
-            title={title}
-            timeRange={timeRange as [string | null, string | null]}
-            overview={overview}
-            details={details}
-          />
-        ))}
+        {works.map(
+          ({ team, link, title, timeRange, location, overview, details }) => (
+            <Experience
+              key={`${team}_${title}`}
+              team={team}
+              link={link}
+              title={title}
+              timeRange={timeRange as [string | null, string | null]}
+              location={location}
+              overview={overview}
+              details={details}
+            />
+          )
+        )}
       </div>
     </SectionWrapper>
   );
