@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import { parseText } from "@utils/parse-text";
 interface StackProps {
   category: string;
   items: string[];
@@ -34,7 +34,11 @@ export const Stack = ({ category, items }: StackProps) => {
         flex-[1]
       "
       >
-        {items.map((v, i) => (i === items.length - 1 ? `${v}` : `${v}, `))}
+        {items.map((v, i) => (
+          <React.Fragment key={v}>
+            {i === items.length - 1 ? parseText(v) : `${v}, `}
+          </React.Fragment>
+        ))}
       </span>
     </div>
   );

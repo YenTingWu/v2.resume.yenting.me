@@ -17,3 +17,9 @@ body {
 ul > li:not(:first-child) {
   margin-top: 3px;
 }
+
+@media (max-width: 640px) {
+  ul > li:not(:first-child) {
+    margin-top: 1px;
+  }
+}

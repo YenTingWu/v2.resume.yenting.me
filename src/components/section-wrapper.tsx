@@ -15,7 +15,7 @@ export const SectionWrapper = ({
   return (
     <div
       className={clsx(
-        "lg:[&:not(:first-child)]:mt-[1rem] ",
+        "lg:[&:not(:first-child)]:mt-[1rem]",
         "sm:first:mt-3",
         "lg:[&_p]:leading-6",
         "lg:[&_p]:tracking-[1.15px]",
@@ -24,7 +24,7 @@ export const SectionWrapper = ({
         className
       )}
     >
-      <div className="p-2">
+      <div className="lg:p-2 p-[6px]">
         <h4 className="lg:mb-4 tracking-[3px] mb-2 font-lg font-bold">
           <span className="bg-gray-700 text-white pr-3">{title}</span>
         </h4>
