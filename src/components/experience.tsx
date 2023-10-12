@@ -40,22 +40,21 @@ export const Experience = ({
           ) : (
             <a
               target="_blank"
-              className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
+              className="font-bold lg:text-lg text-base underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
               href={link}
             >
               {team}
             </a>
           )}
-
-          <span className="ml-3 font-medium text-base text-gray-600">
+          <span className="ml-3 font-medium lg:text-base text-sm text-gray-600">
             {title}
           </span>
         </h5>
         <div className="flex justify-between items-center">
-          <span className="block mt-1 font-medium text-sm text-gray-500">
+          <span className="block mt-1 font-medium lg:text-sm text-xs text-gray-500">
             {formatTime(timeRange[0])} - {formatTime(timeRange[1])}
           </span>
-          <span className="block font-medium text-sm text-gray-500">
+          <span className="block font-medium lg:text-sm text-xs text-gray-500">
             {location}
           </span>
         </div>

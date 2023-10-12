@@ -31,7 +31,7 @@ export const Project = ({
           <a
             target="_blank"
             href={link}
-            className="font-bold text-lg underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
+            className="font-bold lg:text-lg text-base underline underline-offset-4 transition-all cursor-pointer hover:text-blue-600"
           >
             {title}
           </a>

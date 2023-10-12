@@ -33,7 +33,7 @@ const FILE = "/";
     displayHeaderFooter: false,
     printBackground: true,
     // To cut the blank page, if the content is over one page, should remove this property
-    pageRanges: "1-2",
+    pageRanges: "1",
     margin: {
       top: "0.05in",
       bottom: "0.05in",
