@@ -1,21 +1,28 @@
 import * as React from "react";
+import { clsx } from "clsx";
 
 interface SectionWrapperProps {
   title: string;
   children: React.ReactNode;
+  className?: string;
 }
 
-export const SectionWrapper = ({ title, children }: SectionWrapperProps) => {
+export const SectionWrapper = ({
+  title,
+  children,
+  className,
+}: SectionWrapperProps) => {
   return (
     <div
-      className="
-        lg:[&:not(:first-child)]:mt-[1rem] 
-        sm:first:mt-3
-        lg:[&_p]:leading-6 
-        lg:[&_p]:tracking-[1.15px]
-        leading-[20px]
-        tracking-[1px]
-        "
+      className={clsx(
+        "lg:[&:not(:first-child)]:mt-[1rem] ",
+        "sm:first:mt-3",
+        "lg:[&_p]:leading-6",
+        "lg:[&_p]:tracking-[1.15px]",
+        "leading-[20px]",
+        "tracking-[1px]",
+        className
+      )}
     >
       <div className="p-2">
         <h4 className="lg:mb-4 tracking-[3px] mb-2 font-lg font-bold">

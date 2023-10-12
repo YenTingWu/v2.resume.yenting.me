@@ -17,7 +17,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <main className="grid grid-cols-1 lg:grid-cols-3 grid-flow-row-dense w-full max-w-screen-md_lg px-2">
         <Info />
         <section className="col-span-2 font-PT lg:text-sm text-xs">
-          <div>
+          <div id="section-container">
             <Hi />
             <WorkExperiences />
             <OpenSourceExperiences />

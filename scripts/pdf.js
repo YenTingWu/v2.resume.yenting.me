@@ -15,10 +15,13 @@ const FILE = "/";
 
   await page.evaluate(async () => {
     const container = document.getElementById("container");
+    const sectionContainer = document.getElementById("section-container");
     const footer = document.querySelector("footer");
+    const projects = document.querySelector(".projects");
 
     if (footer) {
       container?.removeChild?.(footer);
+      sectionContainer?.removeChild?.(projects);
     }
   });
 

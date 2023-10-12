@@ -7,7 +7,7 @@ export const Projects = () => {
   const { projects } = data;
 
   return (
-    <SectionWrapper title="Projects">
+    <SectionWrapper title="Projects" className="projects">
       <div className=" tracking-wider">
         {projects.map((p) => (
           <Project key={p.title} {...p} />
