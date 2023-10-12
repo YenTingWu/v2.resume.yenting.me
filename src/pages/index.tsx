@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Info } from "@components/info";
 import { Hi } from "@components/hi";
+import { Objective } from "@components/objective";
 import { Projects } from "@components/projects";
 import { WorkExperiences } from "@components/work-experiences";
 import { OpenSourceExperiences } from "@components/open-source-experiences";
@@ -19,6 +20,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <section className="col-span-2 font-PT lg:text-sm text-xs">
           <div id="section-container">
             <Hi />
+            <Objective />
             <WorkExperiences />
             <OpenSourceExperiences />
             <Projects />

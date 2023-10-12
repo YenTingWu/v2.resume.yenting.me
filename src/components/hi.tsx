@@ -3,7 +3,7 @@ import { SectionWrapper } from "@components/section-wrapper";
 
 export const Hi = () => {
   return (
-    <SectionWrapper title="HI">
+    <SectionWrapper title="HI" className="hi">
       <div
         className="
           lg:[&_p:not(:first-child)]:mt-[0.7rem]

@@ -18,10 +18,12 @@ const FILE = "/";
     const sectionContainer = document.getElementById("section-container");
     const footer = document.querySelector("footer");
     const projects = document.querySelector(".projects");
+    const hi = document.querySelector(".hi");
 
     if (footer) {
       container?.removeChild?.(footer);
       sectionContainer?.removeChild?.(projects);
+      sectionContainer?.removeChild?.(hi);
     }
   });
 
