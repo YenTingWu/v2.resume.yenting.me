@@ -41,7 +41,7 @@
       "details": [
         "Built **post systems** to empower teachers to well promote themselves",
         "Developed **payment services** with **Stripe API**",
-        "Deployed and run server-side applications GCP products such as **Cloud Run** and **GCS** and **Job Scheduler**",
+        "Deployed and ran server-side applications with GCP products such as **Cloud Run** and **GCS** and **Job Scheduler**",
         "Led **3-person team** to design and implement fullstack system"
       ]
     },
@@ -94,8 +94,8 @@
       "A year of hands-on experience in developing and deploying server-side applications from the ground up. Skilled in designing RESTful APIs and data structures using NestJS and MondoDB"
     ],
     "GCP": [
-      "A year of hands-on experience in Google Cloud. Experience in running server-side applications with Cloud Run and GCS and establishing jobs with Job Scheduler"
+      "A year of hands-on experience in Google Cloud. Experience in running server-side applications with Cloud Run and GCS, and scheduling with Cloud Function"
     ],
-    "Language": ["Typescript"]
+    "Languages": ["Typescript"]
   }
 }
