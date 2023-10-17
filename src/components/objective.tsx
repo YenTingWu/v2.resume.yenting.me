@@ -5,7 +5,7 @@ export const Objective = () => {
   return (
     <SectionWrapper title="Objective">
       <p>
-        Software Engineer with three years experience at Insgreat and StarkTech,
+        Software Engineer with three years experience at Source and StarkTech,
         focusing on frontend development. Adept at helping companies in
         establishing and managing code bases for enhanced reusability. Capable
         of continuous learning from senior developers and gaining proficiency in
